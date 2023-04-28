@@ -1,0 +1,79 @@
+{
+  "title": "Real-time tracking of influenza A/H5Nx virus evolution",
+  "maintainers": [
+    {"name": "You!", "url": ""}
+  ],
+  "build_url": "",
+  "colorings": [
+    {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "num_date",
+      "title": "Date",
+      "type": "continuous"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "Region",
+      "type": "categorical"
+    },
+    {
+      "key": "host_group",
+      "title": "Host",
+      "type": "categorical"
+    },
+    {
+      "key": "standardized_host_species",
+      "title": "Host species",
+      "type": "categorical"
+    },
+    {
+      "key": "avian_host_order",
+      "title": "Host order",
+      "type": "categorical"
+    },
+    {
+      "key": "subtype",
+      "title": "Subtype",
+      "type": "categorical"
+    },
+    {
+      "key": "clade",
+      "title": "Clade",
+      "type": "categorical"
+    },
+    {
+      "key": "furin_cleavage_motif",
+      "title": "furin cleavage motif",
+      "type": "categorical"
+    },
+    {
+      "key": "cleavage_site_sequence",
+      "title": "cleavage site sequence",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "region",
+    "country"
+  ],
+  "display_defaults": {
+    "map_triplicate": true,
+    "color_by": "subtype"
+  },
+  "filters": [
+    "host_group",
+    "avian_host_order",
+    "subtype",
+    "region",
+    "country"
+  ]
+}
