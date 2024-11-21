@@ -23,7 +23,7 @@ This tutorial is broken into 3 activities. In the first, we will explore a basic
 
 ## Activity 1: Using Nextstrain commands to generate an H3Nx HA phylogeny. 
 
-1. Navigate to the course github page, and clone the repository. Navigate to `exercises/Nextstrain-lab/activity-1` and open up the `activity-1` folder. 
+1. Navigate to the course github page, and clone the repository. Navigate to `/Nextstrain-lab/activity-1` and open up the `activity-1` folder. Do this in your terminal as well with `cd csu-genomics-of-disease-in-wildlife/Nextstrain-lab/activity-1/`
 
 2. Let's start by taking a look at our input data file, `h3nx_ha.fa`. This data was downloaded from Genbank's influenza database, and cleaned up to include cleaned and annotated host sequences, dates, and geographic location data. Open up the file `h3nx_ha.fa` in BBEdit. Our input file is a fasta file, where metadata has been added to the headers, separated by a "|" character. Nextstrain can accomodate multiple input filetypes, but requires data be in one of two basic formats: 
 a. a fasta file where metadata fields are specified in the fasta header, separated by an accepted separator character. The first field must always be a strain name, and each strain name must be unique. 
